@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context="com.example.tomorovik.psmlab1.MainActivity">
+
+    <TextView
+        android:id="@+id/firstNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/firstNameET"
+        android:layout_alignTop="@+id/firstNameET"
+        android:gravity="center_vertical"
+        android:text="@string/form_first_name_TV" />
+
+    <EditText
+        android:id="@+id/firstNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/firstNameTV"
+        android:hint="np. Jan"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+
+    <TextView
+        android:id="@+id/lastNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lastNameET"
+        android:layout_alignTop="@+id/lastNameET"
+        android:layout_below="@+id/firstNameTV"
+        android:gravity="center_vertical"
+        android:text="@string/form_last_name_TV" />
+
+    <EditText
+        android:id="@+id/lastNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstNameET"
+        android:layout_toRightOf="@id/lastNameTV"
+        android:hint="np. Kowalski"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/gradesAmountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gradesAmountET"
+        android:layout_alignTop="@+id/gradesAmountET"
+        android:layout_below="@+id/lastNameTV"
+        android:gravity="center"
+        android:text="@string/form_grades_amount_TV" />
+
+    <EditText
+        android:id="@+id/gradesAmountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastNameET"
+        android:layout_toRightOf="@+id/gradesAmountTV"
+        android:hint="5-15"
+        android:inputType="number"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/avg_resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gradesAmountET"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/SubmitBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avg_resultTV"
+        android:text="@string/form_grades"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/resultBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SubmitBTN"
+        android:visibility="gone" />
+
+</android.widget.RelativeLayout>

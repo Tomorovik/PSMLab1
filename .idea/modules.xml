@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PSMLab1.iml" filepath="$PROJECT_DIR$/.idea/PSMLab1.iml" />
+      <module fileurl="file://C:\Users\Tomorovik\Documents\MyRepos\University Projects\PSMLab1\PSMLab1.iml" filepath="C:\Users\Tomorovik\Documents\MyRepos\University Projects\PSMLab1\PSMLab1.iml" />
+      <module fileurl="file://C:\Users\Tomorovik\Documents\MyRepos\University Projects\PSMLab1\app\app.iml" filepath="C:\Users\Tomorovik\Documents\MyRepos\University Projects\PSMLab1\app\app.iml" />
+    </modules>
+  </component>
+</project>

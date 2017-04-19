@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PSMLab1</string>
+    <string name="form_first_name_TV">Imię</string>
+    <string name="form_last_name_TV">Nazwisko</string>
+    <string name="form_grades_amount_TV">Liczba ocen</string>
+    <string name="form_grades">Oceny</string>
+    <string name="grade2">2</string>
+    <string name="grade3">3</string>
+    <string name="grade4">4</string>
+    <string name="grade5">5</string>
+    <string name="ready">Gotowe</string>
+    <string name="failure">Tym razem mi nie poszło.</string>
+    <string name="success">Super :)</string>
+
+
+</resources>
